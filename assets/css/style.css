@@ -8,6 +8,18 @@ body {
     background-color: #d9dcd6;
 }
 
+/* HELPER CLASS */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,6 +54,7 @@ ul {
 
 li {
     float: left;
+    margin-right: 20px;
 }
 
 
@@ -65,16 +78,8 @@ p {
     background-position: center;
 }
 
-/* HELPER CLASS */
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
+.container {
+    height: 100%:
 }
 
 /* LEFT CONTENT */
@@ -95,7 +100,7 @@ p {
     color: #ffffff;
 }
 
-.content-info img {
+.content-img {
     max-height: 200px;
 }
 
@@ -106,18 +111,17 @@ p {
 
 /* RIGHT CONTENT  */
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.container {
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }

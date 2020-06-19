@@ -12,13 +12,17 @@ body {
 
 .float-left {
     float: left;
-    margin-right: 25px;
+    /* margin-right: 25px; */
 }
 
 .float-right {
     float: right;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
+
+
+
+/* HEADER  */
 
 header {
     padding: 20px;
@@ -63,6 +67,7 @@ a {
     text-decoration: none;
     margin-right: 20px;
     display: block;
+    width: cal(100/3);
 }
 
 p {
@@ -80,11 +85,12 @@ p {
 
 
 
+
 /* LEFT CONTENT */
 
 .content {
-    width: 75%;
-    display: inline-block;
+    width: 70%;
+    display: inline;
     margin-left: 20px;
     
 }
@@ -96,10 +102,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    
 }
 
 .content-img {
     max-height: 200px;
+    margin: 0 20px;
 }
 
 .content-heading {
@@ -112,15 +120,14 @@ p {
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
-    width: 20%;
-    height: 100%;
+    width: 25%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    min-height: inherit;
 }
 
 .benefits {
-    margin-bottom: 32px;
+    margin-bottom: 30px;
     color: #ffffff;
 }
 
@@ -133,7 +140,7 @@ aside {
 
 .benefit-img {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 150px;
 }
 
@@ -148,6 +155,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
